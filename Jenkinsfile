@@ -26,6 +26,7 @@ pipeline {
                 bat 'java HelloMadhu'
             }
       }
+    }
     post {
         always {
             script {
